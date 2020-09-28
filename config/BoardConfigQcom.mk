@@ -1,4 +1,4 @@
-include vendor/corvus/config/BoardConfigQcomDefs.mk
+include vendor/kang/config/BoardConfigQcomDefs.mk
 
 BOARD_USES_ADRENO := true
 

@@ -1,14 +1,14 @@
 bootstrap_go_package {
-    name: "soong-corvus",
-    pkgPath: "corvus/soong/android",
+    name: "soong-kang",
+    pkgPath: "kang/soong/android",
     srcs: [
         "android/variable.go",
     ],
 }
 
 bootstrap_go_package {
-    name: "soong-corvus-generator",
-    pkgPath: "corvus/soong/generator",
+    name: "soong-kang-generator",
+    pkgPath: "kang/soong/generator",
     deps: [
         "blueprint",
         "blueprint-pathtools",
@@ -23,7 +23,7 @@ bootstrap_go_package {
     pluginFor: ["soong_build"],
 }
 
-corvus_generator {
+kang_generator {
     name: "generated_kernel_includes",
 
     // The headers make command

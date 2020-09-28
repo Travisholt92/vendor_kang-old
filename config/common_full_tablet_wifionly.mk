@@ -1,2 +1,2 @@
 # Inherit common stuff
-$(call inherit-product, vendor/corvus/config/common.mk)
+$(call inherit-product, vendor/kang/config/common.mk)

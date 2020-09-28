@@ -27,9 +27,9 @@ INITIAL_COPYRIGHT_YEAR=**** FILL IN COPYRIGHT YEAR ****
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-CORVUS_ROOT="$MY_DIR"/../../..
+KANG_ROOT="$MY_DIR"/../../..
 
-HELPER="$CORVUS_ROOT"/vendor/corvus/build/tools/extract_utils.sh
+HELPER="$KANG_ROOT"/vendor/kang/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
