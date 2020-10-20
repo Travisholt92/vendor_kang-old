@@ -41,7 +41,7 @@ kang: $(INTERNAL_OTA_PACKAGE_TARGET)
 	@echo -e ${CL_MAG}"         @@  *@@      @@#####@@    @@      @@    @@@@@@@@@   &@@         @@@          @@%   "${CL_MAG}
 	@echo -e ${CL_MAG}"         @@    &@@    @@    #@@    @@      @@          @@@    @@@.     ,@@#   @%     .@@    "${CL_MAG}
 	@echo -e ${CL_MAG}"         @%      #@/   *@@@, %@    &@      @@   @@#     @@@      ,@@@@@/        /@@@@@      "${CL_MAG}
-	@echo -e ${CL_RST}"                                                @@@@@@@@@@,                                 "${CL_MAG}
+	@echo -e ${CL_MAG}"                                                @@@@@@@@@@,                                 "${CL_MAG}
 	@echo -e ${CL_RST}""${CL_RST}
 	@echo -e ${CL_RST}"                    Build completed! Now flash that shit and ENJOY!                    "${CL_RST}
 	@echo -e ${CL_RST}""${CL_RST}
